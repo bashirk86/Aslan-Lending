@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aslan Lending | Hard Money Lending</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F3D0F; /* Deep Green */
+      --accent: #C49A3B;  /* Gold */
+      --light: #F6FFF6;   /* Very Light Green */
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; }
+    body { background: var(--light); color: var(--primary); display: flex; flex-direction: column; min-height: 100vh; }
+    header { text-align: center; padding: 3rem 1rem; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    header img { max-width: 160px; height: auto; }
+    h1 { font-size: 2.5rem; margin-top: 1rem; color: var(--primary); }
+    h2 { font-size: 1.5rem; margin: 1.5rem 0 1rem; color: var(--accent); }
+    .cta { margin-top: 1.5rem; }
+    .cta a { display: inline-block; background: var(--accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+    .cta a:hover { background: #a37e2f; }
+    main { flex: 1; padding: 2rem 1rem; max-width: 900px; margin: 0 auto; text-align: center; }
+    ul { list-style: none; margin-top: 1rem; }
+    ul li { margin: 0.5rem 0; font-size: 1.1rem; }
+    footer { background: #fff; text-align: center; padding: 1rem; font-size: 0.9rem; color: #777; box-shadow: 0 -2px 4px rgba(0,0,0,0.05); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="aslan%20logo.png" alt="Aslan Lending Logo">
+    <h1>Aslan Lending</h1>
+    <h2>Fast &amp; Reliable Hard Money Loans</h2>
+    <div class="cta">
+      <a href="mailto:Aslanlending@yahoo.com?subject=Funding%20Inquiry">Get&nbsp;a&nbsp;Quote</a>
+    </div>
+  </header>
+  <main>
+    <p>We empower real‑estate investors with quick, flexible funding solutions. Whether you’re fixing &amp; flipping, purchasing rentals, or need bridge financing, we’ve got you covered.</p>
+    <ul>
+      <li>✔ Same‑day pre‑approval</li>
+      <li>✔ Competitive rates &amp; transparent terms</li>
+      <li>✔ Funding in as little as 7&nbsp;days</li>
+      <li>✔ Experienced team ready to help</li>
+    </ul>
+  </main>
+  <footer>
+    © <span id="year"></span> Aslan Lending. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
